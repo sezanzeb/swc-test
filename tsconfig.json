@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"rootDir": "."
+	},
+	"exclude": [
+		"src/openapi.ts"
+	],
+	"extends": "../tsconfig.json",
+	"include": [
+		"src/**/*.ts"
+	]
+}

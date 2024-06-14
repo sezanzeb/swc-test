@@ -1,0 +1,44 @@
+{
+    "dependencies": {
+        "@nestjs/axios": "^3.0.1",
+        "@nestjs/common": "^10.0.0",
+        "@nestjs/config": "^3.0.0",
+        "@nestjs/core": "^10.0.0",
+        "@nestjs/swagger": "^7.1.7",
+        "axios": "^1.6.8",
+        "camelcase-keys": "^7.0.2",
+        "nestjs-zod": "^3.0.0",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^7.8.1",
+        "snakecase-keys": "^5.4.6",
+        "zod": "^3.22.4"
+    },
+    "description": "",
+    "devDependencies": {
+        "@nestjs/cli": "^10.0.0",
+        "@nestjs/schematics": "^10.0.0",
+        "@swc/cli": "^0.3.12",
+        "@swc/core": "^1.5.29",
+        "@types/node": "^20.0.0"
+    },
+    "engines": {
+        "node": ">=22",
+        "npm": "please-use-yarn",
+        "yarn": "^1.0.0"
+    },
+    "license": "MIT",
+    "main": "dist/src/main.js",
+    "name": "swc-test",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "scripts": {
+        "build": "nest build",
+        "prebuild": "rm -rf dist",
+        "start": "nest start",
+        "start:dev": "yarn --silent start --watch"
+    },
+    "version": "0.0.0",
+    "type": "module"
+}
